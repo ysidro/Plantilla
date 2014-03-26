@@ -1,4 +1,213 @@
-/* ===== Puedes Escribir todo tu Codigo Aqui ======================================================== */
+/* By @almonte_y for axesa //\\ 5 \ marzo \ 2014 */
+body{}
+footer span.icon{
+	font-size: 1.2em;
+}
+#formulario{
+	background: #b3cdd8;
+	border:solid 1px #eee;
+	display: block;
+	padding: 90px 30px 3px; 
+	position: relative;
+
+}
+#formulario input{
+	margin-bottom: 10px;
+
+}
+#formulario .call{
+	background:  url(../img/top-form.png) no-repeat center top;
+	height: 100px;
+	left: 0;
+	padding-top: 1px;
+	position: absolute;
+	top: -8px;
+	width: 100%;
+}
+.chromeframe{
+	background: #fff;
+	text-align: center;
+}
+.left,
+.right{
+	margin: 12px;
+}
+.left{
+	float: left;
+}
+.nav li{
+	display: inline-block;
+}
+.nav li a{
+	
+}
+
+.right{
+	float: right;
+}
+.tap-panel{
+	display: none;
+}
+
+
+#footer,
+#header,
+.ui-footer,
+.ui-header .ui-title, 
+.ui-footer .ui-title
+.footer .ui-title,
+.ui-collapsible-heading .ui-btn-inner, .ui-collapsible-heading .ui-btn-icon-left .ui-btn-inner{
+	background: url(../img/02.jpg);
+}
+#page1{
+	background: #fea80a;
+}
+.ui-collapsible-content{
+	background: #fff;
+}
+
+#jquery-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-container-image-box.loaded {
+	border-bottom: 0;
+}
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev { 
+	left: 0; 
+	float: left;
+}
+#lightbox-nav-btnNext { 
+	right: 0; 
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+
+#lightbox-container-image-data {
+	padding: 0 10px; 
+	color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+	width: 70%; 
+	float: left; 
+	text-align: left; 
+}	
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block; 
+	clear: left; 
+	padding-bottom: 1.0em;	
+}			
+#lightbox-secNav-btnClose {
+	width: 66px; 
+	float: right;
+	padding-bottom: 0.7em;	
+}
+.lbGallery { 
+	/*gallery container settings*/
+	padding-left: 20px;  
+	padding-top: 20px;  
+	padding-right: 20px;  
+	padding-bottom: 20px;  
+	height: auto;
+	text-align:left;
+}
+.lbGallery ul { list-style: none; margin:0;padding:0; }
+.lbGallery ul li { display: inline-block; margin:0; padding:0; overflow:hidden; height: 150px; }
+.lbGallery ul li a{text-decoration:none;}
+	
+.lbGallery ul li a img {
+	/*border color, width and margin for the images*/
+	border-color: #3e3e3e;
+	border-left-width: 10px;
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 20px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+	
+.lbGallery ul li a:hover img {	
+	/*background color on hover*/
+	border-color: #ffffff;
+	border-left-width: 10px;
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 20px;
+}
+	
+#lightbox-container-image-box {
+	border-top: 0px none #ffffff;
+	border-right: 0px none #ffffff;
+	border-bottom: 0px none #ffffff;
+	border-left: 0px none #ffffff;
+}
+	
+#lightbox-container-image-data-box { 
+	border-top: 0px;
+	border-right: 0px none #ffffff;
+	border-bottom: 0px none #ffffff;
+	border-left: 0px none #ffffff;
+}
+
 
 
 

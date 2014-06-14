@@ -1,24 +1,30 @@
 
-/*Template Version-0.1.4 ||||\\\|////|||| 5-Mar-2014 by @almonte_y For www.axesadigital.com/ */
-
-
+/*Template Version-0.1.5 ||||\\\|////|||| 30-Abril-2014 by @almonte_y For www.axesadigital.com/ */
+           
 //Cambiar a False cuando sea un WS1
 var eventShow = true;
-var map = 'tu mapa';/* colocar iframe aqui */
+var map = '';/* colocar iframe aqui */
 var gallery =  gallery();
 
-  function map(){
     $("#mapa").empty().prepend(map)
-  }
+
   function show(){
      
       var nav = $(".nav li a");
-      $("#pag-1").fadeIn();
+      var x = location.hash;
       
+       if(x == ""){
+        $("#pag-1").fadeIn();
+      }else{
+        $(x).fadeIn();
+      }
+    
       nav.click(function(){
           var a = $(this);
           activeNav(a);
           navPage(a.attr("href"));
+
+             $("#mapa").empty().prepend(map)
       });
 
       function activeNav(a){
@@ -29,9 +35,13 @@ var gallery =  gallery();
       }
 
       function navPage(a){
-          $(a).fadeIn("slow")
+           
+              $(a).fadeIn("slow")
               .siblings("div.tap-panel")
               .hide();
+             
+         
+         
       }
         //end event click
         gallery
